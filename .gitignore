@@ -1,2 +1,5 @@
 /.idea/
 /moonlight-engine.iml
+/lsp
+.cpcache/
+classes/

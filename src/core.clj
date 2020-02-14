@@ -1,4 +1,4 @@
-(ns moonlight/core
+(ns core
   (:gen-class)
   (:require [clojure.edn :as edn]
             [honeysql.core :as sql]
