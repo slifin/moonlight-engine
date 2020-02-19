@@ -3,3 +3,5 @@
 /lsp
 .cpcache/
 classes/
+.DS_Store
+.nrepl-port

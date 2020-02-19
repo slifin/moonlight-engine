@@ -5,7 +5,5 @@
             [clojure.data.json :as json]))
 
 (defn -main [input]
-  (-> input edn/read-string sql/format json/write-str print)
+  (->> input (edn/read-string {:readers *data-readers*}) sql/format json/write-str print)
   (flush))
-
-
